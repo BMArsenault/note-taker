@@ -4,11 +4,21 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMArsenault/note-taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BMArsenault/note-taker/issues"
+  },
+  "homepage": "https://github.com/BMArsenault/note-taker#readme"
 }
