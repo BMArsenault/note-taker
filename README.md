@@ -22,7 +22,9 @@ Github Link: https://www.github.com/BMArsenault
 * <a href="https://npmjs.com" target="_blank">npmjs</a>
 * <a href="https://google.com" target="_blank">Google</a>
 * <a href="https://nodejs.org" target="_blank">Node.js</a>
-* <a href="https://expressjs.com" target="_blank">Express.js</a>
+* <a href="https://expressjs.com" target="_blank">Express.js</a>\
+* [Deployed Link](https://bmarsenault.github.io/note-taker)
+* [Heroku](https://dashboard.heroku.com/apps/aqueous-meadow-25861)
 * [Repo (here):](https://https://github.com/BMArsenault/note-taker)
 
 * ![localhost_3001_](https://user-images.githubusercontent.com/89749979/146706131-3ea86f98-c874-4e2f-989a-8856b7636105.png)
