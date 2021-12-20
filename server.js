@@ -30,14 +30,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname,'./public/index.html'));
 });
 
-// app.get('/api/notes', (req, res) => {
-//   notesFile.getNotes()
-//   .then((notes) => {
-//     return res.json(notes);
-//   })
-// });
-
-// read by id
 app.post('/api/notes', (req, res) => {
   if(!req.body.id) {
     req.body.id = uuidv4();
@@ -48,8 +40,12 @@ app.post('/api/notes', (req, res) => {
 });
 
 // app.delete('/api/notes/:id', (req, res) => {
-//   notesFile.getNotes().deleteById(req.params.id)
-//     return res.json(notes);
+//   if(req.body.id) {
+//     req.body.id = uuidv4();
+//   }
+//   notes.push(req.body)
+//   fs.writeFileSync('./db/db.json', JSON.stringify(notes))
+//   res.sendStatus(200);
 // });
 
 
